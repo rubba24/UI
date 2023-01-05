@@ -1,0 +1,60 @@
+{
+    "title": "UI Lovelace Minimalist",
+    "config": {
+        "step": {
+            "user": {
+                "title": "UI Lovelace Minimalist Innstillinger",
+                "description": "",
+                "data": {
+                    "community_cards_enabled": "Aktiver funksjon for å konfigurere sammfunn kort med denne integrasjonen. OBS dette krever Github Autentisering!"
+                }
+            },
+            "device": {
+                "title": "Venter på aktivering av enheten"
+            },
+            "reauth_confirm": {
+                "title": "Trenger å autentiseres på ny",
+                "description": "Du må autentisere med GitHub."
+            }
+        },
+        "abort": {
+            "single_instance_allowed": "Det er kun tilatt med en installasjon av UI Lovelace Minimalist",
+            "not_setup": "UI Lovelace Minimalist er ikke konfigurert.",
+            "github": "Kunne ikke autentisere med GitHub, prøv igjen senere.",
+            "reauth_successful": "Reautentusering utført."
+        },
+        "progress": {
+            "wait_for_device": "1. Åpne {url} \n2.Lim inn følgende kode ULM: \n```\n{code}\n```\n"
+        }
+    },
+    "options": {
+        "step": {
+            "user": {
+                "title": "UI Lovelace Minimalist Innstillinger",
+                "description": "",
+                "data": {
+                    "language": "Språk",
+                    "sidepanel_enabled": "Vis Dashboard i sidepanelet.",
+                    "sidepanel_icon": "Sidepanel ikon",
+                    "sidepanel_title": "Sidepanel tittel",
+                    "adaptive_ui_enabled": "Aktiver adaptiv Dashboard med popup oppdelt visning",
+                    "adaptive_ui_title": "adaptiv panel tittel",
+                    "adaptive_ui_icon": "adaptiv panel ikon",
+                    "theme": "Tema",
+                    "include_other_cards": "Inkluder de nødvendige 'custom card' ressurene.",
+                    "community_cards_enabled": "Aktiver funksjon for å konfigurere sammfunn kort med denne integrasjonen. OBS dette krever Github Autentisering!",
+                    "community_cards": "Velg samfunnskort du ønsker å aktivere"
+                }
+            }
+        },
+        "abort": {
+            "single_instance_allowed": "Det er kun tilatt med en installasjon av UI Lovelace Minimalist",
+            "not_setup": "UI Lovelace Minimalist er ikke konfigurert."
+        },
+        "error": {
+            "github_cards": "Noe gikk galt med lasting av kort fra Github.",
+            "ack": "Du må behandle alle valg.",
+            "gh_token": "Github polett ikke satt. Installer integrasjonen på nytt for å gjennomføre installasjonsprosedyren.(Ingen tilpassede instillinger vil gå tapt)"
+        }
+    }
+}
